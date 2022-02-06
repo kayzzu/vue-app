@@ -1,13 +1,12 @@
 <template>
-    <div class="navbar"></div>
+    <div class="navbar">
+        <button class=""></button>
+    </div>
 </template>
 
 <script>
     export default {
         name: "NavBar",
-        props: {
-            msg: String,
-        },
     };
 </script>
 
@@ -15,8 +14,9 @@
     .navbar {
         position: absolute;
         top: 0;
+        left: 0;
+        right: 0;
         height: 30px;
         background-color: #dde7ee;
-        width: 100%;
     }
 </style>
